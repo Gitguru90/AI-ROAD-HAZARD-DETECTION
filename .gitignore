@@ -1,0 +1,30 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtualenvs
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Models & Large Files (Except tracked placeholders)
+models/*.pt
+!models/.gitkeep
+
+# User Data & Logs
+logs/*.log
+data/detection_history.csv
+data/settings.json
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# OS Specific
+.DS_Store
+Thumbs.db
